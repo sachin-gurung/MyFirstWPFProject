@@ -34,15 +34,25 @@ namespace MyFirstWPFProject
         public MainWindow()
         {
             InitializeComponent();
-            WrappedText.Text = "Hello from code behind";
+            //WrappedText.Text = "Hello from code behind";
         }
 
-        int count = 0;
+        //int count = 0;
 
-        private void CounterButton_Click(object sender, RoutedEventArgs e)
-        {
-            count++;
-            CounterButton.Content = $"You clicked {count} time(s)!!!";
-        }
+        //private void CounterButton_Click(object sender, RoutedEventArgs e)
+        //{
+        //    count++;
+        //    CounterButton.Content = $"You clicked {count} time(s)!!!";
+        //}
+
+        //private void ButtonClickPage1(object sender, RoutedEventArgs e)
+        //{
+        //    Main.Content = new Page_1();
+        //}
+
+        //private void ButtonClickPage2(object sender, RoutedEventArgs e)
+        //{
+        //    Main.Content = new Page2();
+        //}
     }
 }
