@@ -34,6 +34,15 @@ namespace MyFirstWPFProject
         public MainWindow()
         {
             InitializeComponent();
+            WrappedText.Text = "Hello from code behind";
+        }
+
+        int count = 0;
+
+        private void CounterButton_Click(object sender, RoutedEventArgs e)
+        {
+            count++;
+            CounterButton.Content = $"You clicked {count} time(s)!!!";
         }
     }
 }
