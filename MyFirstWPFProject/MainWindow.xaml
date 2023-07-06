@@ -7,7 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="800">
     <Grid>
-        <StackPanel>
+        <!--<StackPanel>-->
+            <Frame x:Name="Main" Source="/ContactPage.xaml"></Frame>
+            
+            
+            
             <!--<Button Background="#FFD42424" BorderBrush="#FF972E2E" Foreground="#FF911B1B" HorizontalAlignment="Center" Opacity="0.49" IsCancel="True">
                 <Button.OpacityMask>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -86,15 +90,16 @@
                     <TextBlock Text="Third page inside Grid inside page"/>
                 </Grid>
             </Page>-->
-        </StackPanel>
+            <!--<TextBlock>
+            <Hyperlink NavigateUri="https://outlook.live.com/owa/">Pay now</Hyperlink>
+            </TextBlock>-->
+            
+        <!--</StackPanel>-->
         <!--<StackPanel Orientation="Horizontal">
             <Button Content="Page 1" VerticalAlignment="Top" HorizontalAlignment="Left" MinWidth="100" Click="ButtonClickPage1"/>
             <Button Content="Page 2" MinWidth="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,0,0,0" Click="ButtonClickPage2"/>
         </StackPanel>
         <Frame x:Name="Main" Margin="0,50,0,0" HorizontalAlignment="Left"/>-->
         <!--<Frame Source="/Page1.xaml" Margin="5,5,5,0" Background="Red"></Frame>-->
-        <Label>
-            <Hyperlink NavigateUri="/Page2.xaml">Pay now</Hyperlink>
-        </Label>
     </Grid>
 </Window>

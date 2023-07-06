@@ -35,6 +35,7 @@ namespace MyFirstWPFProject
         {
             InitializeComponent();
             //WrappedText.Text = "Hello from code behind";
+            //Main.Content = new ContactPage();
         }
 
         //int count = 0;
