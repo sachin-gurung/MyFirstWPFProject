@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace MyFirstWPFProject
 {
-    class Class1
+    public class Car
     {
+        public int Speed { get; set; }
+        public String Name { get; set; }
     }
 }

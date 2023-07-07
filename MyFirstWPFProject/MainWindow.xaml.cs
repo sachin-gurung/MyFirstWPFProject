@@ -36,6 +36,9 @@ namespace MyFirstWPFProject
             InitializeComponent();
             //WrappedText.Text = "Hello from code behind";
             //Main.Content = new ContactPage();
+            var c = new Car();
+            c.Name = "SachinCar";
+            c.Speed = 100;
         }
 
         //int count = 0;
